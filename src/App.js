@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 // import './App.css';
 import ExpenseItem from './Components/ExpenseItem';
-
+import "./Components/ExpenseItem.css";
 function App() {
   const expenses=[
     {
@@ -18,7 +18,7 @@ function App() {
     },
   ]
   return (
-    <div >
+    <div className="expenses">
     <ExpenseItem title={expenses[0].title}
     amount={expenses[0].amount}
     date={expenses[0].date} />
