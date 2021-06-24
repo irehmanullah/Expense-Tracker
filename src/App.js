@@ -31,7 +31,7 @@ function App() {
     }
   }
   useEffect(() => {
-    addExpenseHandler();
+    // addExpenseHandler();
     getLocalTodos();
   }, [])
   useEffect(() => {
