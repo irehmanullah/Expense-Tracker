@@ -53,7 +53,6 @@ const ExpenseForm = (props) => {
             enteredDate: ''
         })
     }
-    const date = new Date();
     return (
         <form onSubmit={submitHandler}>
             <div className="new-expense__controls">
