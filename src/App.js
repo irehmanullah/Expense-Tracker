@@ -8,13 +8,13 @@ function App() {
       id: 'a1',
       title: 'Car',
       amount: 234,
-      date: new Date(2020, 7, 23)
+      date: new Date()
     },
     {
       id: 'a2',
       title: 'Bike',
       amount: 87,
-      date: new Date(2020, 12, 3)
+      date: new Date()
     },
   ]
   const [expenses, setExpenses] = useState(dummyExpenses);
