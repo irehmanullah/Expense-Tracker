@@ -1,10 +1,12 @@
 import './ExpenseList.css';
 import ExpenseItem from './ExpenseItem';
+
 const ExpenseList = props => {
-    if(props.items.length===0){
+    if (props.items.length === 0) {
         return <h2 className='expenses-list__fallback'>Found no Expense.</h2>
     }
-    return(
+
+    return (
         <div>
             {props.items.length === 0 ? (<p>No Expenses Found.</p>) :
                 props.items.map(expense =>
@@ -17,4 +19,5 @@ const ExpenseList = props => {
         </div>
     )
 }
+
 export default ExpenseList;
